@@ -25,8 +25,8 @@ All installations are performed via SSH from the workstation (`ssh admin@192.168
    * Download: `wget https://piston-data.mojang.com/.../server.jar -O minecraft_server.jar`
    * Run: `java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui`
 
-![Place your Installation Screenshot here]((https://github.com/user-attachments/assets/d433d3fc-cff8-4014-8575-2083a0142e09)
-)
+![Place your Installation Screenshot here](![week3-install](https://github.com/user-attachments/assets/82a07637-b745-4f30-bec1-15ad247726c4)
+
 
 ## Expected Resource Profiles
 Based on benchmarks, anticipated usage for each app under load (on 2GB RAM, 2-core VM):
