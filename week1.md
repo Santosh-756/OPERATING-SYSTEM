@@ -15,7 +15,7 @@ I spent approximately 5 hours on research, creating the diagram, and running the
 ## System Architecture Diagram
 I created the diagram using draw.io and exported it as a high-resolution PNG. The diagram clearly shows the server VM (Ubuntu Server), the workstation VM (Ubuntu Desktop), and the host-only network connecting them.
 
-![System Architecture Diagram](week1-architecture.jpeg)
+![System Architecture Diagram](week1 system spec.png)
 *Figure 1: System Architecture Diagram showing the dual-VM setup and SSH communication flow.*
 
 **Key Components:**
