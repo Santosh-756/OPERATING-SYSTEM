@@ -15,9 +15,9 @@ I spent approximately 5 hours on research, creating the diagram, and running the
 ## System Architecture Diagram
 I created the diagram using draw.io and exported it as a high-resolution PNG. The diagram clearly shows the server VM (Ubuntu Server), the workstation VM (Ubuntu Desktop), and the host-only network connecting them.
 
-![System Architecture Diagram](<img width="1286" height="610" alt="week1 system spec png" src="https://github.com/user-attachments/assets/269062a0-aeb0-4dae-87a3-ce5792b12d7e" />
+![System Architecture Diagram](<img width="1536" height="1024" alt="week1 png" src="https://github.com/user-attachments/assets/f6631e64-c60f-462a-9700-2e7249e26ba8" />
 
-*Figure 1: System Architecture Diagram showing the dual-VM setup and SSH communication flow.*)
+)
 
 **Key Components:**
 * **Server VM:** Ubuntu Server 24.04 LTS (headless)
@@ -64,7 +64,8 @@ I chose **Option A – Full Ubuntu Desktop VM** on the same host.
 ## System Specifications Using CLI Commands
 All commands were run directly on the server console immediately after installation to verify the system's baseline state.
 
-![System Specifications Screenshot](week1-system-specs.jpeg)
+![System Specifications Screenshot](<img width="1286" height="610" alt="week1 system spec png" src="https://github.com/user-attachments/assets/272ba62f-df22-4bd8-9cef-349064dc6f09" />)
+
 *Figure 2: Terminal output showing system specifications via CLI.*
 
 **1. Kernel Version**
