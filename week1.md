@@ -64,9 +64,9 @@ I chose **Option A – Full Ubuntu Desktop VM** on the same host.
 ## System Specifications Using CLI Commands
 All commands were run directly on the server console immediately after installation to verify the system's baseline state.
 
-![System Specifications Screenshot](<img width="1286" height="610" alt="week1 system spec png" src="https://github.com/user-attachments/assets/272ba62f-df22-4bd8-9cef-349064dc6f09" />)
+![System Specifications Screenshot](<img width="1286" height="610" alt="week1 system spec png" src="https://github.com/user-attachments/assets/272ba62f-df22-4bd8-9cef-349064dc6f09" />
 
-*Figure 2: Terminal output showing system specifications via CLI.*
+*Figure 2: Terminal output showing system specifications via CLI.*)
 
 **1. Kernel Version**
 ```bash
