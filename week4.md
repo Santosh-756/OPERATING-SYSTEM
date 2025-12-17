@@ -16,7 +16,7 @@ On the workstation terminal, I generated an ED25519 key pair because it's more s
 ```bash
 ssh-keygen -t ed25519 -C "admin@workstation"
 ````
-(<img width="905" height="786" alt="week4 ssh-keygen" src="https://github.com/user-attachments/assets/e9e3482c-e5a0-431f-8f09-a7f48906efa8" />)
+<img width="905" height="786" alt="week4 ssh-keygen" src="https://github.com/user-attachments/assets/e9e3482c-e5a0-431f-8f09-a7f48906efa8" />
 
 *Figure 1: Generating the ED25519 SSH key pair on the workstation.*
 
@@ -58,8 +58,7 @@ I allowed SSH connections *only* from my workstation's specific IP address, limi
 sudo ufw allow from 192.168.56.11 to any port 22 proto tcp
 sudo ufw enable
 ```
-![]
-(<img width="953" height="640" alt="week4-firewall-proof" src="https://github.com/user-attachments/assets/8e31e98b-a031-4de2-8849-3bf96256eadb" />)
+<img width="953" height="640" alt="week4-firewall-proof" src="https://github.com/user-attachments/assets/8e31e98b-a031-4de2-8849-3bf96256eadb" />
 
 *Figure 2: Verifying the UFW status and ruleset.*
 
@@ -113,8 +112,7 @@ free -h
 df -h
 sudo whoami
 ```
-![]
-(<img width="952" height="648" alt="week 4 remote command" src="https://github.com/user-attachments/assets/30f274f9-87ac-46a7-83e6-856ac5a5499e" />)
+<img width="952" height="648" alt="week 4 remote command" src="https://github.com/user-attachments/assets/30f274f9-87ac-46a7-83e6-856ac5a5499e" />
 
 *Figure 3: Executing administrative commands remotely via SSH.*
 
