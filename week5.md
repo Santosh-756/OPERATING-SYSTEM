@@ -15,6 +15,7 @@ First, I verified the installation and checked the current status of AppArmor pr
 sudo apt install apparmor-utils -y
 sudo aa-status
 ````
+<img width="896" height="825" alt="week5 apparmor" src="https://github.com/user-attachments/assets/93c0e000-65f4-483d-b1eb-020043ac4e86" />
 
 *Figure 1: Verifying that AppArmor modules are loaded and profiles are in enforce mode.*
 
@@ -46,7 +47,8 @@ Unattended-Upgrade::Allowed-Origins {
 };
 Unattended-Upgrade::Automatic-Reboot "false";
 ```
-![](week5-updates.jpg)
+<img width="888" height="879" alt="week5-updates" src="https://github.com/user-attachments/assets/49437e03-604e-45a9-8dcb-1f10c4e7a8a5" />
+
 *Figure 2: Configuring the unattended-upgrades file to prioritize security patches.*
 
 **Verification:**
@@ -65,7 +67,8 @@ Fail2Ban monitors logs for failed login attempts and bans the offending IPs, add
 ```bash
 sudo apt install fail2ban -y
 ```
-![](week5-fail2ban.jpg)
+<img width="937" height="872" alt="week5 fail2ban" src="https://github.com/user-attachments/assets/cd6befc4-9063-401c-9efa-a89a295bc41b" />
+
 *Figure 3: Installing Fail2Ban via SSH.*
 
 **2. Configuration (`jail.local`)**
