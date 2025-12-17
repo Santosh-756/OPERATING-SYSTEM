@@ -1,5 +1,3 @@
-(<img width="905" height="786" alt="week4 ssh-keygen" src="https://github.com/user-attachments/assets/b3206f83-4338-496a-92a2-dcaa9b5e2692" />)
-
 # Week 4: Initial System Configuration & Security Implementation
 
 ## Introduction
@@ -19,7 +17,8 @@ On the workstation terminal, I generated an ED25519 key pair because it's more s
 ssh-keygen -t ed25519 -C "admin@workstation"
 ````
 
-![](week4-ssh-keygen.jpg)
+![](<img width="905" height="786" alt="week4 ssh-keygen" src="https://github.com/user-attachments/assets/e9e3482c-e5a0-431f-8f09-a7f48906efa8" />)
+
 *Figure 1: Generating the ED25519 SSH key pair on the workstation.*
 
 **2. Copy Public Key to Server**
