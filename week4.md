@@ -1,3 +1,5 @@
+(<img width="905" height="786" alt="week4 ssh-keygen" src="https://github.com/user-attachments/assets/b3206f83-4338-496a-92a2-dcaa9b5e2692" />)
+
 # Week 4: Initial System Configuration & Security Implementation
 
 ## Introduction
@@ -111,8 +113,7 @@ free -h
 df -h
 sudo whoami
 ```
-![](<img width="952" height="648" alt="week 4 remote command" src="https://github.com/user-attachments/assets/2a72450d-c739-446f-95b2-147609b2aaab" />
-)
+![](week4-remote-commands.jpg)
 *Figure 3: Executing administrative commands remotely via SSH.*
 
 ## Summary and Reflections
