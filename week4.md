@@ -17,8 +17,7 @@ On the workstation terminal, I generated an ED25519 key pair because it's more s
 ssh-keygen -t ed25519 -C "admin@workstation"
 ````
 
-![](<img width="905" height="786" alt="week4 ssh-keygen" src="https://github.com/user-attachments/assets/9f3cc8b5-0659-49c5-b878-24282a762bb0" />
-)
+![](<img width="905" height="786" alt="week4 ssh-keygen" src="https://github.com/user-attachments/assets/9f3cc8b5-0659-49c5-b878-24282a762bb0" />)
 *Figure 1: Generating the ED25519 SSH key pair on the workstation.*
 
 **2. Copy Public Key to Server**
