@@ -58,7 +58,9 @@ I allowed SSH connections *only* from my workstation's specific IP address, limi
 sudo ufw allow from 192.168.56.11 to any port 22 proto tcp
 sudo ufw enable
 ```
-![](week4-firewall-proof.jpg)
+![]
+(<img width="953" height="640" alt="week4-firewall-proof" src="https://github.com/user-attachments/assets/8e31e98b-a031-4de2-8849-3bf96256eadb" />)
+
 *Figure 2: Verifying the UFW status and ruleset.*
 
 **Firewall Documentation Showing Complete Ruleset:**
@@ -111,7 +113,9 @@ free -h
 df -h
 sudo whoami
 ```
-![](week4-remote-commands.jpg)
+![]
+(<img width="952" height="648" alt="week 4 remote command" src="https://github.com/user-attachments/assets/30f274f9-87ac-46a7-83e6-856ac5a5499e" />)
+
 *Figure 3: Executing administrative commands remotely via SSH.*
 
 ## Summary and Reflections
